@@ -1,6 +1,6 @@
 <?php
 
-namespace Tourstream\CssInlineStyle\XClass;
+namespace Byskr\CssInlineStyle\XClass;
 
 use TYPO3\CMS\Core\Resource\Exception\FileDoesNotExistException;
 use TYPO3\CMS\Core\Utility\GeneralUtility;

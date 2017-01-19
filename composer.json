@@ -1,12 +1,12 @@
 {
-    "name": "tourstream/typo3-css-inline-style",
+    "name": "byskr/typo3-css-inline-style",
     "description": "Small tweak to load CSS_inlineStyle from file",
     "type": "typo3-cms-extension",
     "license": "proprietary",
     "authors": [
         {
             "name": "Daniel Weise",
-            "email": "daniel.weise@tourstream.eu"
+            "email": "dw@byskr.com"
         }
     ],
     "replace": {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tourstream\\CssInlineStyle\\": "Classes/"
+            "Byskr\\CssInlineStyle\\": "Classes/"
         }
     },
     "require": {
