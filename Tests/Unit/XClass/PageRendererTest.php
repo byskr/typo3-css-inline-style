@@ -7,12 +7,13 @@
  * Time: 14:12
  */
 
-class PageRendererTest extends PHPUnit_Framework_TestCase
+class PageRendererTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
 {
     public $object;
 
     public function setUp()
     {
+        parent::setUp();
         $this->object = new \Byskr\CssInlineStyle\XClass\PageRenderer();
     }
 
